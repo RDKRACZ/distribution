@@ -43,7 +43,7 @@ body:
     required: false
 - type: textarea
   attributes:
-    label: OpenMandriva version:
+    label: OpenMandriva version
     description:
   validations:
     required: false
