@@ -5,8 +5,7 @@ body:
 - type: markdown
   attributes:
     value: |
-      If you need help with running Minecraft, please visit us on our Discord before making a bug report.
-      **Do not forget to give your issue a descriptive title.** "Bug in the instance screen" makes it hard to distinguish issues at a glance.
+     **Do not forget to give your issue a descriptive title.** "Bug in the instance screen" makes it hard to distinguish issues at a glance.
 - type: checkboxes
   attributes:
     label: This issue is unique
