@@ -35,6 +35,18 @@ body:
     description: If you know what could be causing this bug, describe it here.
   validations:
     required: false
+- type: textarea
+  attributes:
+    label: Logs and screenshots if relevant
+    description:
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: OpenMandriva version:
+    description:
+  validations:
+    required: false
 - type: checkboxes
   attributes:
     label: This issue is unique
