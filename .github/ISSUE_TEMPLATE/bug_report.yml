@@ -37,13 +37,13 @@ body:
     description: If you know what could be causing this bug, describe it here.
   validations:
     required: false
- - type: textarea
+- type: textarea
   attributes:
     label: Observed behavior
     description: A
   validations:
     required: false
- - type: textarea
+- type: textarea
   attributes:
     label: Expected behavior
     description: B
