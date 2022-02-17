@@ -40,13 +40,12 @@ body:
 - type: textarea
   attributes:
     label: Observed behavior
-    description: A
   validations:
     required: false
 - type: textarea
   attributes:
     label: Expected behavior
-    description: B
+    description:
   validations:
     required: false
 - type: textarea
