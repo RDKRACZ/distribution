@@ -7,25 +7,16 @@ body:
     value: |
       If you need help with running Minecraft, please visit us on our Discord before making a bug report.
       **Do not forget to give your issue a descriptive title.** "Bug in the instance screen" makes it hard to distinguish issues at a glance.
-- type: dropdown
-  attributes:
-    label: Operating System
-    description: If you know this bug occurs on multiple operating systems, select all you have tested.
-    multiple: true
-    options:
-    - Windows
-    - macOS
 - type: textarea
   attributes:
     label: Description of bug
-    description: What did you expect to happen, what happened, and why is it incorrect?
-    placeholder: The cat button should show a cat, but it showed a dog instead!
+    description: What did you expect to happen, what happened, why is it incorrect?
   validations:
     required: true
 - type: textarea
   attributes:
     label: Steps to reproduce
-    description: A bulleted list, or an exported instance if relevant.
+    description: A bulleted list
     placeholder: "* Press the cat button"
   validations:
     required: true
@@ -47,9 +38,3 @@ body:
     description:
   validations:
     required: false
-- type: checkboxes
-  attributes:
-    label: This issue is unique
-    options:
-    - label: I have searched the issue tracker and did not find an issue describing my bug.
-      required: true
