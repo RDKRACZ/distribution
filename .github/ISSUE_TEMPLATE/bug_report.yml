@@ -5,7 +5,7 @@ body:
 - type: markdown
   attributes:
     value: |
-     **Do not forget to give your issue a descriptive title.** "Bug in the instance screen" makes it hard to distinguish issues at a glance.
+     **Do not forget to give your issue a descriptive title.** "Image browser crashes" makes it hard to distinguish issues at a glance.
 - type: checkboxes
   attributes:
     label: This issue is unique
@@ -37,9 +37,21 @@ body:
     description: If you know what could be causing this bug, describe it here.
   validations:
     required: false
+ - type: textarea
+  attributes:
+    label: Observed behavior
+    description:
+  validations:
+    required: false
+  - type: textarea
+  attributes:
+    label: Expected behavior
+    description:
+  validations:
+    required: false
 - type: textarea
   attributes:
-    label: Logs and screenshots if relevant
+    label: Addctional comment, logs and screenshots if relevant
     description:
   validations:
     required: false
